@@ -1,0 +1,23 @@
+# Core dependencies
+requests==2.31.0
+psycopg2-binary==2.9.9
+pandas==2.1.4
+numpy==1.24.3
+
+# Airflow dependencies
+apache-airflow==2.8.1
+apache-airflow-providers-postgres==5.7.1
+
+# Data processing
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Logging and monitoring
+structlog==23.2.0
+
+# Environment and configuration
+python-dotenv==1.0.0
+
+# HTTP client with retry capabilities
+urllib3==2.0.7
+tenacity==8.2.3 
